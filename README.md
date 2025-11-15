@@ -1,6 +1,6 @@
 # JSON Explorer
 
-A tiny app that lets you explore the JSONPlaceholder API while learning the fundementals of full-stack development:
+A tiny React app for learning how the front end of a full-stack app works: calling APIs, managing state, and rendering dynamic UI.
 
 # App Structre
 
