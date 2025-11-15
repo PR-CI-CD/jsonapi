@@ -1,8 +1,65 @@
 # JSON Explorer
 
-A tiny app that lets you explore the JSONPlaceholder API:
+A tiny app that lets you explore the JSONPlaceholder API while learning the fundementals of full-stack development:
 
-# Getting Started with Create React App
+# App Structre
+
+Home – simple welcome page
+
+Posts
+
+Fetch list of posts
+
+Search posts by title (with useMemo)
+
+Filter by user
+
+Add a new post (fake POST – JSONPlaceholder returns it but doesn’t persist)
+
+Post Detail
+
+Click a post to see details and its comments
+
+Todos
+
+Fetch todos
+
+Filter by “All / Completed / Incomplete”
+
+Users
+
+Fetch users
+
+Show basic info
+
+404 page
+
+That’s a lot of fundamentals in a tiny app.
+
+# Folder & file structre 
+
+src/
+  main.jsx
+  App.jsx
+  api/
+    jsonPlaceholder.js
+  components/
+    Layout.jsx
+    Navbar.jsx
+    LoadingSpinner.jsx
+    ErrorMessage.jsx
+  pages/
+    HomePage.jsx
+    PostsPage.jsx
+    PostDetailPage.jsx
+    TodosPage.jsx
+    UsersPage.jsx
+    NotFoundPage.jsx
+  hooks/
+    usePosts.js      (optional custom hook – nice extra practice)
+  styles.css
+
+# Getting Started 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
